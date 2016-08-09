@@ -1,11 +1,3 @@
-$(document).ready(function()
-{
-	$(".submit").click(function()
-	{
-		addUser(wrapUser());
-		validateEmail();
-	});
-});
 function wrapUser()
 {
 	var emailU=$(".emailField")[0].value;
@@ -38,4 +30,8 @@ function validateEmail(email)
 	var reg=/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/;
 
 	console.log(reg);
+}
+function doThis()
+{
+	console.log("test");
 }

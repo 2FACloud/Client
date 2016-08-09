@@ -1,11 +1,3 @@
-$(document).ready(function()
-{
-	$(".submit").click(function()
-	{
-		doThis();
-	});
-});
-
 function formToJSON(user, pw)
 {
 	var json=
