@@ -1,3 +1,10 @@
+/**
+ *
+ * @param doc The website.
+ * @param site The id of the button to turn "active"
+ * @param func Callback
+ * @returns {string}
+ */
 var load = function (doc, site, func) {
     'use strict';
 
